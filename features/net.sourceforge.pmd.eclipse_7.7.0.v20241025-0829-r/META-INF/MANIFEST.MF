@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.2
+Build-Jdk-Spec: 21
+
+Name: feature.xml
+SHA-384-Digest: 3bj6i85n0J2YXTtlOkApYerZRvJNx55KESDf8Rxgyt3Eg+sxqrH5Pmmb
+ wySKngk8
+
+Name: feature.properties
+SHA-384-Digest: b+Ydy2veSUaViuZ3/QihIbNhYFPO+5OE4/+oOKiXC+i/HO/5M9QMKbdI
+ K9hVeR92
+
+Name: pmd_logo_small.jpg
+SHA-384-Digest: YnVbUttFCEZ35QcO9QKFpbwpGdSTro3hvG9C4wtEJso5ol8bVxsw7yyp
+ Ozi3rH9S
+

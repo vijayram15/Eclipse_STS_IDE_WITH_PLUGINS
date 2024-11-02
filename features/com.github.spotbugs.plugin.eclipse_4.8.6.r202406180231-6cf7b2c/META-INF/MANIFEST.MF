@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: 21.0.3 (Eclipse Adoptium)
+
+Name: p2.inf
+SHA-384-Digest: dPVwwMpwzE0ZSfLXBs6TzGs75kgG2hY9B39HClHFEl6rEwaFmrVlIJty
+ 91X/sUSf
+
+Name: feature.xml
+SHA-384-Digest: RUNA6u2vEMneZLxmu7DkZnbf4QZ+0a+C4IvKZgg9/QGYIyjqU+lYzi3h
+ 5dg4I0kq
+

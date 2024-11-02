@@ -1,0 +1,370 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.github.spotbugs.plugin.eclipse; singleton:=true
+Bundle-Version: 4.8.6.r202406180231-6cf7b2c
+Bundle-ClassPath: spotbugs-plugin.jar,lib/jaxen-2.0.0.jar,lib/bcel-6.9.0
+ .jar,lib/asm-util-9.7.jar,lib/spotbugs-annotations.jar,lib/error_prone_
+ annotations-2.27.0.jar,lib/xmlresolver-5.2.2-data.jar,lib/httpcore5-h2-
+ 5.1.3.jar,lib/httpcore5-5.1.3.jar,lib/asm-9.7.jar,lib/xmlresolver-5.2.2
+ .jar,lib/dom4j-2.1.4.jar,lib/asm-analysis-9.7.jar,lib/gson-2.11.0.jar,l
+ ib/commons-text-1.10.0.jar,lib/log4j-api-2.23.1.jar,lib/asm-commons-9.7
+ .jar,lib/slf4j-api-2.0.13.jar,lib/jsr305-3.0.2.jar,lib/log4j-core-2.23.
+ 1.jar,lib/commons-codec-1.15.jar,lib/spotbugs.jar,lib/asm-tree-9.7.jar,
+ lib/httpclient5-5.1.3.jar,lib/jcip-annotations-1.0-1.jar,lib/commons-la
+ ng3-3.14.0.jar
+Bundle-ManifestVersion: 2
+Bundle-Name: SpotBugs
+Bundle-Activator: de.tobject.findbugs.FindbugsPlugin
+Bundle-Vendor: SpotBugs Project
+Require-Bundle: org.eclipse.ui.workbench.texteditor,org.eclipse.ui,org.e
+ clipse.ant.core,org.eclipse.core.runtime;bundle-version="3.12.0",org.ec
+ lipse.core.resources,org.eclipse.ui.ide,org.eclipse.ui.editors,org.ecli
+ pse.jdt.core,org.eclipse.jdt.ui,org.eclipse.jface.text,org.eclipse.jdt.
+ launching,org.eclipse.jdt,org.eclipse.team.core,org.eclipse.compare,org
+ .eclipse.team.ui,org.eclipse.ui.navigator,org.eclipse.ui.navigator.reso
+ urces,org.eclipse.pde.core;resolution:=optional,org.eclipse.pde.build;r
+ esolution:=optional,org.eclipse.core.expressions,org.eclipse.ui.views.p
+ roperties.tabbed,org.eclipse.ui.console,org.eclipse.core.filesystem,spo
+ tbugs;resolution:=optional;visibility:=reexport,spotbugs-annotations;re
+ solution:=optional;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Eclipse-BuddyPolicy: registered
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.tobject.findbugs,de.tobject.findbugs.actions,de.tobje
+ ct.findbugs.adapters,de.tobject.findbugs.builder,de.tobject.findbugs.cl
+ assify,de.tobject.findbugs.decorators,de.tobject.findbugs.io,de.tobject
+ .findbugs.marker,de.tobject.findbugs.nature,de.tobject.findbugs.prefere
+ nces,de.tobject.findbugs.properties,de.tobject.findbugs.reporter,de.tob
+ ject.findbugs.util,de.tobject.findbugs.view,de.tobject.findbugs.view.ex
+ plorer,de.tobject.findbugs.view.properties,de.tobject.findbugs.wizards,
+ edu.umd.cs.findbugs,edu.umd.cs.findbugs.annotations,edu.umd.cs.findbugs
+ .asm,edu.umd.cs.findbugs.ba,edu.umd.cs.findbugs.ba.bcp,edu.umd.cs.findb
+ ugs.ba.ca,edu.umd.cs.findbugs.ba.ch,edu.umd.cs.findbugs.ba.constant,edu
+ .umd.cs.findbugs.ba.deref,edu.umd.cs.findbugs.ba.generic,edu.umd.cs.fin
+ dbugs.ba.heap,edu.umd.cs.findbugs.ba.interproc,edu.umd.cs.findbugs.ba.j
+ sr305,edu.umd.cs.findbugs.ba.npe,edu.umd.cs.findbugs.ba.obl,edu.umd.cs.
+ findbugs.ba.type,edu.umd.cs.findbugs.ba.vna,edu.umd.cs.findbugs.bcel,ed
+ u.umd.cs.findbugs.bcel.generic,edu.umd.cs.findbugs.bugReporter,edu.umd.
+ cs.findbugs.bytecode,edu.umd.cs.findbugs.charsets,edu.umd.cs.findbugs.c
+ lassfile,edu.umd.cs.findbugs.classfile.analysis,edu.umd.cs.findbugs.cla
+ ssfile.engine,edu.umd.cs.findbugs.classfile.engine.asm,edu.umd.cs.findb
+ ugs.classfile.engine.bcel,edu.umd.cs.findbugs.classfile.impl,edu.umd.cs
+ .findbugs.config,edu.umd.cs.findbugs.detect,edu.umd.cs.findbugs.filter,
+ edu.umd.cs.findbugs.graph,edu.umd.cs.findbugs.internalAnnotations,edu.u
+ md.cs.findbugs.io,edu.umd.cs.findbugs.jaif,edu.umd.cs.findbugs.log,edu.
+ umd.cs.findbugs.model,edu.umd.cs.findbugs.plan,edu.umd.cs.findbugs.plug
+ in.eclipse.quickfix,edu.umd.cs.findbugs.plugin.eclipse.quickfix.excepti
+ on,edu.umd.cs.findbugs.plugin.eclipse.quickfix.util,edu.umd.cs.findbugs
+ .plugin.eclipse.util,edu.umd.cs.findbugs.plugins,edu.umd.cs.findbugs.pr
+ ops,edu.umd.cs.findbugs.sourceViewer,edu.umd.cs.findbugs.util,edu.umd.c
+ s.findbugs.visitclass,edu.umd.cs.findbugs.workflow,edu.umd.cs.findbugs.
+ xml,org.apache.bcel,org.apache.bcel.classfile,org.apache.bcel.generic,o
+ rg.apache.bcel.util,org.apache.bcel.verifier,org.apache.bcel.verifier.e
+ xc,org.apache.bcel.verifier.statics,org.apache.bcel.verifier.structural
+ s,org.dom4j,org.objectweb.asm,org.objectweb.asm.commons,org.objectweb.a
+ sm.signature,org.objectweb.asm.tree,org.objectweb.asm.tree.analysis,org
+ .objectweb.asm.util
+
+Name: about.properties
+SHA-384-Digest: dPCBvQEc9fz4ZHLgMTQimag5W+VqRlG73b9qt4lRAsOVNJYYvqi/Fmqw
+ rgKPmbXR
+
+Name: plugin.xml
+SHA-384-Digest: bW8qwl7TPQjz1nHWsEc16cBXudAY6ZhW4M5IAz0naTT59+a1C7PmOUlC
+ YRr8noLM
+
+Name: lib/jaxen-2.0.0.jar
+SHA-384-Digest: /bsyLTr19jo6o5QZc03jyuOdqksbAbQ7l8IHRQLp9zfcQDGhWUOKm/dd
+ fa36vVau
+
+Name: icons/export_bugs.png
+SHA-384-Digest: 45X1IeplQWEZCMV20VVnIvw70siEqw4gYRhOHOhyjxPsip/wvvF3NvD8
+ enxUg7tq
+
+Name: lib/jcip-annotations-1.0-1.jar
+SHA-384-Digest: iLDs/eORo9hGg0nHDhU5Vpdo36wyM9/gtGYJBN8E5sa/Ju2cB4S5siwS
+ LDRI4qa2
+
+Name: doc/installing_findbugsplugin.txt
+SHA-384-Digest: ch2B5KCIpskdlCxveWAxP/+ExbVBKQscW4ebeq4lCF+a6Gp69uvjfLN4
+ Ey5bAK5G
+
+Name: icons/delete_edit.png
+SHA-384-Digest: ppL0XzYZeQx7BhqtPnXBmgpD9qtw5SL90erEJ1eDPlq1bkNT/hdeXt26
+ dfljjtfp
+
+Name: lib/commons-codec-1.15.jar
+SHA-384-Digest: BdBQYoNxZHIXXUTCpHZlIzl7+KAHwYhI+cmmFxjMiqQ3+ctLkXcQN6sp
+ qWCGC2Kg
+
+Name: doc/building_spotbugs_plugin.txt
+SHA-384-Digest: Ge6+JvzDzuvVyFjPfq1NFWJyLEPzwfCy1hgCF/65CSRDfTvyw1jqaped
+ trKv5EXZ
+
+Name: icons/buggy-tiny.png
+SHA-384-Digest: 8j9+ZAJN0u9gSuLb4BJC4JKUDFvwkm+XD4qK0ZsrxmAlNG6J36bLAX5M
+ s10HimPY
+
+Name: about.ini
+SHA-384-Digest: 7vf1pYJkSTbOduTnIl6sq16WUazU+CnzDsMZGThdLS64pFIVUiIijtYL
+ fglkRUwE
+
+Name: icons/package.png
+SHA-384-Digest: EXd29b/N6ke5ei+eHaex0AAuRKlvG6206WKrZVmqON7JMRXnpagi2Ala
+ 9oBaWgWo
+
+Name: lib/asm-9.7.jar
+SHA-384-Digest: s0xiMM0cRuNAZ66EKfcsfgMaHA/HW5Pvaszxj9X+anTDZZFgsxmWUtiL
+ 2RbL1j1K
+
+Name: icons/bug.gif
+SHA-384-Digest: ZN/4mtDeMFWFNYXADtg6od5WafZ+gZZiEBDwBBkutBpz/6cJLFvaOnaL
+ e2IuHNxa
+
+Name: icons/file_obj.png
+SHA-384-Digest: krJOt8wClS/nDUPJHeji6kx8KtNP3FFB3ksEzf9sLFC5X+3DJcYkzU3J
+ ikubdBjK
+
+Name: icons/refresh.png
+SHA-384-Digest: 50MIKb+SG0NQshi9O9Wi7Mg6MZrhPBc9GGkMovEb7HOQW8WqZ9isHznI
+ tDpCSmIs
+
+Name: spotbugs-plugin.jar
+SHA-384-Digest: FcGZEPuPIgSHR0Pqm9nRqAqP9cpQFI1hEXh7rcvak+Rq50lpzyEfgekV
+ VD0F+fnA
+
+Name: OSGI-INF/l10n/bundle_ja.properties
+SHA-384-Digest: qg+9Q0XsBtZ7p7oAQuToLus3QSM+RBuf7OkjAP+rR9BqxMM/2UAuhxW6
+ FT2iFTbT
+
+Name: icons/import_wiz.png
+SHA-384-Digest: OLqtoULFtUDJ2REYUATgi0GuqVUI88/nwKyCieiW7tWS1yU2ei8881eO
+ k7x3ljmp
+
+Name: icons/warning.png
+SHA-384-Digest: M8VQvgZhy5Sc+LmVI/NMULcTRxZDewGn9lKdsEopxY02Digqn3k0FZil
+ QottCIp4
+
+Name: icons/bugview.gif
+SHA-384-Digest: wS2X5UV5FvWmBYhtniMVkEGxpmtwG1nxYTPY0WkjcE9d9Qnc5GGpUar5
+ x/wS0N9p
+
+Name: icons/next_nav_into.png
+SHA-384-Digest: NIUNpvkAb0naGrWkb5JkssMijLJgd9QIGvXb0RxhHQRNBP2xb1qmNQVd
+ yuhLi5Qe
+
+Name: icons/saveas_edit.png
+SHA-384-Digest: Ax0ieYuD+U8iuWLFEt/pjGtVvz0Cz8gXqZrEowI+dtPiBbFNxqCUjsSx
+ cwjNCGWp
+
+Name: lib/asm-analysis-9.7.jar
+SHA-384-Digest: lDK2yM6fUZlD2oAZbwt5MBcmIgOezQeC9xC9u/wpRNbHWoXLs8x0Q/7y
+ WNvdT5vL
+
+Name: lib/httpcore5-h2-5.1.3.jar
+SHA-384-Digest: z+rWF4zRzDD82dovh1OJeiA555Fe3tMnj7dFRaSdtooQhg7QZOn1LQ8V
+ JuPNfKo1
+
+Name: lib/commons-text-1.10.0.jar
+SHA-384-Digest: BsVublE913zxDQ2kbN6gjDTiIOgfoCRzW2aMZlDfQjTlZP6GX/XK/qlj
+ 9Wsej/1K
+
+Name: OSGI-INF/l10n/bundle_fr.properties
+SHA-384-Digest: I2Fre5SdO+PCiUUjdWuRDpMk2xjA2m43Nb9/ALUQVtuMhe/RGdIyzc3i
+ lIS8W3JG
+
+Name: FindBugs.png
+SHA-384-Digest: E4Ypl0lRpxyYLGMr9/7Y2cod81BfalRdfrft2F9NEkijJvAeYSAMJBIf
+ gxArDaQV
+
+Name: icons/buggy-tiny-yellow.png
+SHA-384-Digest: D5FWVUMXOjkEYfaLVzgAnf1a5Iic3h4k7fHN4/uK7SGrToEIWjvIKyaM
+ hKHwwqUG
+
+Name: icons/annotationsView.png
+SHA-384-Digest: yXpTRTUwiec+7qPSYwRdv9Szlp6Klka/7N5LfpSKEluHmjpLMHiAUpVw
+ tjzVaXK3
+
+Name: icons/confidence-ignore.png
+SHA-384-Digest: 0mZp1MwWbe1EkcVIUa5Vs5J1P55a1kxtKNU7HNZi0FMdcogKpPYCp01G
+ zxed0Gem
+
+Name: icons/runFindbugs.png
+SHA-384-Digest: Dmi4JwG4/pk9dWwLdyA56XTXr+EKkc3WMiiuyDVMrImb+0Q7S41fjWEB
+ lIQrPeBq
+
+Name: lib/spotbugs.jar
+SHA-384-Digest: CqLS2Ckivybhxnr35ZyqfjQ3wPuX4Nr1+fMNl6ZKEE9CDPwHr/R+VSEX
+ W5S0rydp
+
+Name: icons/confidence-low.png
+SHA-384-Digest: p9GBUhb1SfPiZkIk0JvFpHS3BEACyAhSMCdQAPm+hfPVQQh1trqBdDUZ
+ a+wRWhmQ
+
+Name: icons/collapseall.png
+SHA-384-Digest: qxfzTi+p/YBFot86esEP0v82fml8gzGK0UX3b5cjKfsjPeYMj6zzmfqP
+ PUrRn+KO
+
+Name: icons/detailsView.png
+SHA-384-Digest: SrRQAn5Tl1nQRCllzADMKElEaWyMyO5/d+zxExZngDRuYqdKJ8YIEbbE
+ YYS7KrsQ
+
+Name: lib/commons-lang3-3.14.0.jar
+SHA-384-Digest: kI0KItwXqqBMqlEEz/fK1biLd+7LeN1bOz/voi/3GsUKT7njHIl6wkP5
+ 2EHks0U9
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-384-Digest: ImTysdPoScMaxKfm1t8D1MZVf80kQ3RiSbdxXd2VqayGRIr5C4+b/QYN
+ 7IxHmiYy
+
+Name: smallBuggy.png
+SHA-384-Digest: muJYfM/AYVuJ/n+/mDAQ/a10FK28EgbKjXQ6tjGUbEftcVdNdb+x5ERo
+ h1xrNHBK
+
+Name: icons/buggy-tiny-gray.png
+SHA-384-Digest: mMa0jAFxi4VZVu/+8Q/Lin1PZc97nvqVCiNR9V/EjQnwVIvprEvtz2C3
+ x5c/MnKk
+
+Name: lib/dom4j-2.1.4.jar
+SHA-384-Digest: uFtsmnqJr49Eozc6kuOyMZMvt+5oYLOHrS44OtJmzGthPMgSjusyRIer
+ RMvJml0i
+
+Name: lib/httpclient5-5.1.3.jar
+SHA-384-Digest: jmx7wAteJcVk+qbyDQGyYogWPehGJzlDvcegQzSMvkpVQNyHXtBXBUwq
+ 9cbhD4FH
+
+Name: lib/asm-util-9.7.jar
+SHA-384-Digest: bldiZBzd3NfpjWD2M5oThWtG3XJGh13FjvOq7FpQw+VdlQoldFuiCy7g
+ qAHKezDg
+
+Name: icons/buggy-tiny-green.png
+SHA-384-Digest: kjySsQF6WGn8nw7as2VrPU0Kj1xnP4Kx6GJ+6khSXQGW+t5Dzwwj1OUC
+ zb+51fSV
+
+Name: icons/up_nav.png
+SHA-384-Digest: fOVUodDAsXGH9uB/XtuW0QWfvYkTfRJn/bkdqgVAwAnwSI6DXdaHo1LU
+ zdZUIjXm
+
+Name: icons/buggy-tiny.xcf
+SHA-384-Digest: 9BPHJIMEqKL0tRvYPHfCR51tHYAnomSiQkgQIvlF+AW6f4kFmGb9mpXQ
+ ZSM9mzVI
+
+Name: icons/export_wiz.png
+SHA-384-Digest: zuVI3rc396Dj4YPw+S4bpZslc7tpVfr3kon+AL0hemL5o97LOKWr2tvL
+ kOJRkbyU
+
+Name: .options
+SHA-384-Digest: M6gZq66xSPMTT9jBtc2wA1IiQBwNAAn2Y8NGF6RGL4aSRdYoIUHR69xY
+ i5LgsfbU
+
+Name: plugin/README
+SHA-384-Digest: Lk49dDiCRpCBE6y5zu4su/KjGPK1lCE7McfGzhmUPJQ9wCJFsmOCwUzI
+ /Xg5R6JZ
+
+Name: icons/filter_ps.png
+SHA-384-Digest: 1hZOR/G7+6vk7L2rfrP19e3ODP9zx1DpRDN1qCM3M5oeZ+/DwMU1cLnt
+ 0rrPohzM
+
+Name: lib/slf4j-api-2.0.13.jar
+SHA-384-Digest: tny7TvMhQUIwAN1OBnvzLgwd0sRonGEVIrn+38F0RRMXWiL0sSdvLOxH
+ IclGfPiC
+
+Name: icons/prop_ps.png
+SHA-384-Digest: kHTfnNLzNAGBe2Pb3oZQQjEEFw8aUyj6/LEBSceOQ9/eq/k7LvZWhO2u
+ Sux6wxb7
+
+Name: RELEASENOTES
+SHA-384-Digest: KNk+yI63Kn3I1jrF8fdVSWjD8U1qwWOvFvilgcxA5Itp+fJKr5jnNeST
+ o0byzP0S
+
+Name: lib/xmlresolver-5.2.2-data.jar
+SHA-384-Digest: PD4bGOLgrB9LZ+F7oYnIbX9pu/Dxu0kctloqSk78dvaVVZvGGQDl7FrW
+ lLE3VHIH
+
+Name: lib/bcel-6.9.0.jar
+SHA-384-Digest: cirA0Fk36fSMGs/OjJzIl8vttMmRumax1Gv+3UifoFy5e0/HQu+wXzfo
+ oWcApsE5
+
+Name: lib/gson-2.11.0.jar
+SHA-384-Digest: hyDfHKbyJYpxt/IwfitJ8K0jebyT6TvmpsYZ5SuV2+WggKSRSehwjOGJ
+ Dpe0e5u/
+
+Name: lib/asm-commons-9.7.jar
+SHA-384-Digest: NBwxuRExUQOBJ92EpxRzlrZxAos+CTtpinOskI4Dr9ei4UyiMZY7JL2X
+ 5PvWENGE
+
+Name: lib/xmlresolver-5.2.2.jar
+SHA-384-Digest: 8JN0aqijml0TCf59FDFc6FHWSf43ANLsSQE5R9cBwzNF4y5KQwbRR14m
+ ZIe3ugFp
+
+Name: lib/jsr305-3.0.2.jar
+SHA-384-Digest: ygsWnT6y0JItwDETOgIfhhoEO7PkBaiHKCFf1v8A+lL9xzR4QtzCAxRy
+ 43JhZL3E
+
+Name: lib/asm-tree-9.7.jar
+SHA-384-Digest: KHL3DxDuCDF4ayVaYwLXfmJAW+Hga0z86mtISywbL352FVAlYWuKlhbv
+ wLQTRtIS
+
+Name: about.html
+SHA-384-Digest: TMuX59C5fxN/Qct9uh6Pn2PylMg13yXcCmJ7v6UJOv2vFhs4STULstfi
+ xreeNiiM
+
+Name: icons/buggy-tiny-yellow2.png
+SHA-384-Digest: 7JC8fNbi9CB4wxI5RyI7UwouKwf1+nsSVCkJajx3kmVaNoo/yYqr7BzT
+ K1dDu8CN
+
+Name: lib/error_prone_annotations-2.27.0.jar
+SHA-384-Digest: txtzM23xOo0QKTPYUfLOtIbYVUz9xxfzj7LTYjSnsMm8AVESydDHw1IK
+ CB+oXFW3
+
+Name: icons/confidence-normal.png
+SHA-384-Digest: vLlldZTJsXP8eWvngmQSZVkh0bzNSqHzrEsRpbzYUluD/me88zbTylET
+ BGRRIxzR
+
+Name: lib/log4j-core-2.23.1.jar
+SHA-384-Digest: 0mCN0z4t0+UKZj2UJmDbgLtiw5r6P+QVXea60jW07mN/l0iMsh6dInUL
+ 3SeaRGNK
+
+Name: icons/edtsrclkup_co.png
+SHA-384-Digest: LZVOaInKA3Sl3GOo+P57ICxV+SD36sVah+DUFx3Cy41FkTNPVNaYzkO7
+ 4/iAJ3yt
+
+Name: icons/buggy-tiny-blue.png
+SHA-384-Digest: 79oHwltpbLmpyjRw1mkTQhjuQ9b8yheQc/an5bjyrte/3LGTItHI+0XJ
+ cheEau6+
+
+Name: spotbugs.png
+SHA-384-Digest: X8juQJbO18HTMY0kYYr0GibYO6yoeYIY0MqSSbzfO6ehpaHQhPQ3ItZ7
+ LWTlTfNx
+
+Name: icons/treeView.png
+SHA-384-Digest: j3RHAu058GdTwYFns5IDjVOT4wlQlN/LKlVLMRmuxVfahawJASXBFLaV
+ BHUtcH5z
+
+Name: icons/confidence-high.png
+SHA-384-Digest: UiRbcLfFrkASAPQX3LZZX5PYFtnkjTezyQzbCcdHsqFfYBvT0aTR8uru
+ y33Cm2P+
+
+Name: lib/httpcore5-5.1.3.jar
+SHA-384-Digest: Y9NxA8CwQO2fDHCvC8yXksaK/ox9pfRF8wRYx8gCUk8Hob21c2YeaAlV
+ olfg+2tM
+
+Name: lib/log4j-api-2.23.1.jar
+SHA-384-Digest: OTfLZGAJdjqUsZmg1sAGVEG5kU4rJePVjbUjh06nYCdrRF/zAAFZSNOo
+ EyF+DuQE
+
+Name: icons/expandall.png
+SHA-384-Digest: pFawvH++SRRHN2VF+XVObzy8XfJamdSEC37H73GpVB6SjJcYlhzeCKxd
+ 5I/CMdGt
+
+Name: icons/buggy-tiny-orange.png
+SHA-384-Digest: g7YLG3rSmVfqyd/uX5JFhAAWii43KghCIndl5b/FGC7LHqlhEHT0LFZ7
+ 2APJaEj2
+
+Name: icons/tasks_tsk.png
+SHA-384-Digest: 2YqonuvZH3fOBrMosBg1j02WvGFpKz0yua4gfGBZFPvM+IOeFpnoXHa2
+ Hh6x0CL/
+
+Name: lib/spotbugs-annotations.jar
+SHA-384-Digest: 7YrP3lqXX2qiSTDK8oic3e7iEiZJfKfKQDolr9wqajLXptU8wRcUNAHj
+ aYyHszFZ
+
