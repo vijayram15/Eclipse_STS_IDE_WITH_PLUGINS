@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: PgxyEClfvEeMFiB123OxXa8S2opMo
+ sHUAN48XExY3/4=
+SHA-256-Digest-Manifest: C4jErg26zIsnzWMEJYuioCP2UWMx6ZIA9FpuztvcXmk=
+Created-By: 1.8.0_422 (Azul Systems, Inc.)
+
+Name: p2.inf
+SHA-256-Digest: nsoClqsmfLGlBl/4BhINe3VuugrO2TxzGSF1TSrUfO8=
+
+Name: feature.xml
+SHA-256-Digest: FyVA/z6e1G50wKp4FzlBkFOTkzkpVVxvlVKLLnjUWhg=
+
+Name: feature.properties
+SHA-256-Digest: ayuQagQEA3CmwjcyIUPcyplplArkXeIhKzo6w9KiKZk=
+
+Name: license.html
+SHA-256-Digest: Zo74fQJU54X69i8FhEDOmhZ+ULLjRrwBMw7Up/y1NWQ=
+
