@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><repository name="SonarLint for Eclipse Update Site" type="org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository" version="1.0.0">
   <properties size="1">
-    <property name="p2.timestamp" value="1728305887768"/>
+    <property name="p2.timestamp" value="1731056084791"/>
   </properties>
   <children size="2">
     <!-- The last version supporting Java 8 as a runtime -->
     <child location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/6.2.0.37299/"/>
     <!-- The latest release -->
-    <child location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/10.8.0.82289/"/>
+    <child location="https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/10.9.1.82333/"/>
   </children>
 </repository>

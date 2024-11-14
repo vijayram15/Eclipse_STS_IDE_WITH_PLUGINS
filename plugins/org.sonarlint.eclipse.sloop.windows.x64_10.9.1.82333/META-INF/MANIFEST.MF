@@ -1,0 +1,1155 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.2
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle_name
+Bundle-SymbolicName: org.sonarlint.eclipse.sloop.windows.x64;singleton:=
+ true
+Bundle-Version: 10.9.1.82333
+Bundle-Vendor: %bundle_vendor
+Fragment-Host: org.sonarlint.eclipse.core
+Automatic-Module-Name: org.sonarlint.eclipse.sloop.windows.x64
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Eclipse-PlatformFilter: (& (osgi.os=win32) (osgi.arch=x86_64))
+Eclipse-BundleShape: dir
+Bundle-License: GNU LGPL 3;link="http://www.gnu.org/licenses/lgpl.txt"
+
+Name: sloop/jre/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/freetype.dll
+SHA-256-Digest: 1Jvq7U2hq+VoJ3NZ5lYhOz9AB/2q+WfkNGFBf5lEqNo=
+
+Name: sloop/lib/spring-expression-5.3.39.jar
+SHA-256-Digest: 1TN3dNiJ/NycCLDIuKqhAY1Mlbm0QdsBGPeuTTKPKBA=
+
+Name: sloop/lib/xodus-vfs-2.0.1.jar
+SHA-256-Digest: bk26xua/N1WWdhPIsE7CGab1ws/8NP+GY8+eOLxeiZc=
+
+Name: sloop/jre/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/spring-beans-5.3.39.jar
+SHA-256-Digest: tml6XY+suBqnXlpG2VnUJW2pzjtA0z87W71CqLHtVyI=
+
+Name: sloop/jre/legal/java.security.jgss/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/conf/logging.properties
+SHA-256-Digest: ti0nM6uZVWsQihlR2JTFqNdrGsegDALDiPnrm+BGxW8=
+
+Name: sloop/lib/sonarlint-server-api-10.7.2.79501.jar
+SHA-256-Digest: Y9r0XB4Wd+lXYwOb0tUWcTmO/UbWZFRULwJ4ckvgDxI=
+
+Name: sloop/lib/httpcore5-h2-5.2.jar
+SHA-256-Digest: Wgh/uMYZl51JKoNUbzUd2t8ysozGoykjIp8/x3cXFXg=
+
+Name: sloop/jre/bin/management_agent.dll
+SHA-256-Digest: FmX/Rny4Ij3CldTmYEfNUtHHxhNdIrCBmD5iJCWnYcw=
+
+Name: sloop/jre/legal/java.naming/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/lib/psfont.properties.ja
+SHA-256-Digest: WkvVG5ab8Yf/htlPSnH9+/pgJ2KXX6PHPSZLRXX3x48=
+
+Name: sloop/jre/bin/javajpeg.dll
+SHA-256-Digest: nPsjPEfdm9qfz9Uz9NTi5oXlh+ne/Mp44ym5HnJwI34=
+
+Name: sloop/jre/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.smartcardio/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/JavaEWAH-1.2.3.jar
+SHA-256-Digest: 1lImlJcTxMYaeE9BxRFn57Axb5N2Q5jrup5DNrPZVMI=
+
+Name: sloop/jre/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LIC
+ ENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.net/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/j2objc-annotations-2.8.jar
+SHA-256-Digest: 8CqV+hpele2z7YWf0Pt99wnRIaNSkO/4t03OKrf01u0=
+
+Name: sloop/jre/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/jsound.dll
+SHA-256-Digest: GB6KtPNrcLIoyxypUW2rUNhUdlH76XG3a1hUnt5oYPY=
+
+Name: sloop/jre/bin/server/classes.jsa
+SHA-256-Digest: s1giyCun3OrnrBcJsaIJTDuXLa7wb2BLzQDTBQ/j9wo=
+
+Name: sloop/lib/checker-qual-3.33.0.jar
+SHA-256-Digest: 4xYlW7/Nn+UNFlMUuFq7KzPLKmapPEkdtkjkmKgsLeE=
+
+Name: sloop/jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-core-namedpipe-l1-1-0.dll
+SHA-256-Digest: NyHZEpyEE2brKEep4Y/74GSrtG0bDddEXUloKDFB8Is=
+
+Name: sloop/jre/legal/java.xml.crypto/santuario.md
+SHA-256-Digest: bAVXTZmw1+OMYhfbVxjnui7n9xDyOl+CKOUC3P/kPno=
+
+Name: sloop/jre/lib/jfr/default.jfc
+SHA-256-Digest: S1c4er6LUd+ukbOSJ03m+PA+Qf+FASQCk0BMKlscSZU=
+
+Name: sloop/lib/sonarlint-plugin-commons-10.7.2.79501.jar
+SHA-256-Digest: UvrTvVqEF48RFkYEuwI7j9aFnFV3QKJrt8l3QaFErMA=
+
+Name: sloop/jre/legal/java.desktop/giflib.md
+SHA-256-Digest: yLmfM4kIh9J61W+6nt2Ou8Zoz+BokWhQWpVhPR1LMvg=
+
+Name: sloop/jre/bin/jsvml.dll
+SHA-256-Digest: hBxBTF+Eo3Fmq39xNNaInmjPlOEWR7uBfxE1fZOJPtE=
+
+Name: sloop/lib/commons-codec-1.15.jar
+SHA-256-Digest: s+n21jp5AQm/DQVmEfvtHPaQVYJt7+uYlKcTadJG7WM=
+
+Name: sloop/jre/conf/security/policy/README.txt
+SHA-256-Digest: baB0czSw/qdZL9kmFLK7yLEmU14Smx/uSDd02RTpjrU=
+
+Name: sloop/jre/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/api-ms-win-core-synch-l1-2-0.dll
+SHA-256-Digest: nyl84ZTi9bV5klerY0M0aC4ASd6822NAsbKwaubGiCk=
+
+Name: sloop/lib/sonarlint-backend-cli-10.7.2.79501.jar
+SHA-256-Digest: WdbKEuongaFJW9ThwhyAfTqbBWeYpKqy/dZR0ZMtG9Y=
+
+Name: sloop/jre/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/conf/management/management.properties
+SHA-256-Digest: +ACW7AKNy3FiXDmOwW0SAjyvxqHAVazq7QfQLo1W9jc=
+
+Name: sloop/lib/sonarlint-http-10.7.2.79501.jar
+SHA-256-Digest: HxL9FeAlpsqXA5V/y/JZvTMB9hlBfe667McPUcGMBhc=
+
+Name: sloop/jre/legal/java.sql/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.xml/dom.md
+SHA-256-Digest: Zoboh3ZnWEo6fAc0S6rcoaA+KfZ3Fi2Hw8CBHpkNEUg=
+
+Name: sloop/jre/bin/api-ms-win-crt-locale-l1-1-0.dll
+SHA-256-Digest: KC3TMA33coRa1cPB3yGLPyKqROaYjzZWa2LD+Bsa5K4=
+
+Name: sloop/lib/kotlin-logging-1.7.9.jar
+SHA-256-Digest: KiwETaPo2lmVqxmbO3CJmIHOLYFropwugFOiQCqXzxY=
+
+Name: sloop/jre/legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.xml/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/jawt.dll
+SHA-256-Digest: ExPWI5eU8Ew1ssDYAlU1G9wfB7j1pVfVpQNMyzSbeBw=
+
+Name: sloop/jre/bin/api-ms-win-crt-stdio-l1-1-0.dll
+SHA-256-Digest: CjI+4wNSo7c+tG/EDIhPsDcSAWfkfsWPUals106MZLo=
+
+Name: sloop/jre/lib/security/cacerts
+SHA-256-Digest: xcmYD4Q8I2nFrRov3JBUaEhfrY1S5b5otuwWvJF/jDw=
+
+Name: sloop/jre/bin/nio.dll
+SHA-256-Digest: nn3aM+YVCdaJ5xX2YcepYkhLrzMSrnyrz4X/xgpkUxg=
+
+Name: sloop/jre/bin/j2pcsc.dll
+SHA-256-Digest: vaqD025OoFw9LS+JeUCa0wvI0H4Np8oBuk+CCDqcZCA=
+
+Name: sloop/jre/conf/sound.properties
+SHA-256-Digest: KZwjYLYVXrKJkOxJzSF1P5fkNEL+j6sD4E8+IT30OmY=
+
+Name: sloop/jre/legal/java.xml/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/release
+SHA-256-Digest: NN57QkckSLVLTDZkRZcX6lUZT7awlaFB1OYwGfOtV9s=
+
+Name: sloop/jre/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.management/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/api-ms-win-core-localization-l1-2-0.dll
+SHA-256-Digest: 9rjL8A+MwdJ9UwYN6N8UYeTRR2YjFC9LKGkZlNFYl1E=
+
+Name: sloop/jre/bin/sspi_bridge.dll
+SHA-256-Digest: QPEB/hyZlwNiK+6ydsRk3z/FwC/IFoImj9nBHiLW1G0=
+
+Name: sloop/jre/bin/api-ms-win-crt-string-l1-1-0.dll
+SHA-256-Digest: ImGKMUZOEq7D7RP6I8xiWNaImIU4eFHLIfq59zwSQNA=
+
+Name: sloop/jre/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.localedata/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-handle-l1-1-0.dll
+SHA-256-Digest: uO0AzTkHa2OoFTBUV56PvpMd0Uihc5rkY1U7u0CSJE8=
+
+Name: sloop/jre/bin/api-ms-win-crt-process-l1-1-0.dll
+SHA-256-Digest: N59+2Xji4Fhg0hKOaOi+tTPS/V9XEJxJGaSKqXBksBo=
+
+Name: sloop/jre/legal/java.xml/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-crt-multibyte-l1-1-0.dll
+SHA-256-Digest: AyvzvZEUD8wdUDNR4vdYrf2cATmwOuXT/8JoyAEP1kI=
+
+Name: sloop/lib/sonar-markdown-9.4.0.54424.jar
+SHA-256-Digest: p0h+uLPnfQMlUrWBKOhCkpTzVxz4bMIhXcGde1QvHvk=
+
+Name: sloop/jre/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.base/unicode.md
+SHA-256-Digest: Xk5mI6IaY/m8FupUr0EzuAOOSQwNSZp0Z2+eWmG5xbI=
+
+Name: sloop/jre/legal/java.management/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.net.http/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/commons-lang-2.6.jar
+SHA-256-Digest: UPEbCfh3wpTVbyRGP0fSj5Kc9QRPZIZhwPDPuumi9Jw=
+
+Name: sloop/lib/sonarlint-plugin-api-10.7.2.79501.jar
+SHA-256-Digest: IqWSB1SzYNEX7BQlJ4bTXkAHGLxmL7/MD8curaqM5dE=
+
+Name: sloop/lib/spring-context-5.3.39.jar
+SHA-256-Digest: nmRPwzvs6anLglOBZ6G5ZArnt9gCUuiT2JuJJqL4FjM=
+
+Name: sloop/jre/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/jli.dll
+SHA-256-Digest: pKzq6el5sPYBl7LRzuVb4gCnUZW3W3QOJDunqET1vkU=
+
+Name: sloop/lib/sslcontext-kickstart-8.3.4.jar
+SHA-256-Digest: zdzpkieWm/LTMm71CJ5U1HMMqDEYiTkskigRHgtA2Wc=
+
+Name: sloop/jre/legal/java.compiler/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/server/jvm.dll
+SHA-256-Digest: /dNpsMCOG0kYcz7WRl9HMcT7zcFi/HibHcKD/xa2CG0=
+
+Name: sloop/jre/bin/jaccesswalker.exe
+SHA-256-Digest: jo/KaOPQBvv1C7fzz2+fkWWGYnYF163Nw0CjLv0l9CA=
+
+Name: sloop/lib/commons-io-2.16.1.jar
+SHA-256-Digest: 9B97qs1xaJZEes6XWGIfYsHGsKkdiazuSI2ib8R3yE8=
+
+Name: sloop/jre/legal/java.scripting/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.xml/xerces.md
+SHA-256-Digest: RyIk+Z3oM/T0wZ8vigMX8iEU4cZB9dd/+jpCgKG4AXY=
+
+Name: sloop/lib/guava-32.1.1-jre.jar
+SHA-256-Digest: kfu6N/HIslHPnqnn06Np63nrHmpd8dS79IPdA4B0AoE=
+
+Name: sloop/jre/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/api-ms-win-crt-conio-l1-1-0.dll
+SHA-256-Digest: t/iR9mm/SfXiy11LJxbT8dU1BhRLniSW5n8B3ScTgog=
+
+Name: sloop/jre/legal/java.logging/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.sctp/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-memory-l1-1-0.dll
+SHA-256-Digest: 6vQkdSvac/hnYQJNN8FV7G0jijumgljkQI2JQvjThAg=
+
+Name: sloop/jre/bin/jdwp.dll
+SHA-256-Digest: VS01meldLI1qnp3ki69HC5WqQlT+Dnqk+kmVLz5aqow=
+
+Name: sloop/jre/legal/java.desktop/colorimaging.md
+SHA-256-Digest: BNYePo5x3UUuvlIAivU3jZ9mQNFFeK61FdxTdZc7AYk=
+
+Name: sloop/jre/bin/api-ms-win-core-debug-l1-1-0.dll
+SHA-256-Digest: HvrJ02+v7sHtuueYsEU1lnvqkTRcq0JHxLGxp4CLnNg=
+
+Name: sloop/lib/jul-to-slf4j-1.7.36.jar
+SHA-256-Digest: nmQfsULF8LBiPWIiwJ6odSOkG/a+1IrHmUByQBC5id4=
+
+Name: sloop/lib/sonar-scanner-protocol-9.9.0.65466.jar
+SHA-256-Digest: Gj3g3y6pIWbV6U1jIQkvT2IQZDFQ+J84/KfN23RXpto=
+
+Name: sloop/jre/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.crypto.ec/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/rmiregistry.exe
+SHA-256-Digest: SJ1pjE2W7jM3b6sFCVaLIUSGXqFA3c5x1XTAKSxWrBg=
+
+Name: sloop/jre/legal/java.base/public_suffix.md
+SHA-256-Digest: xPV+R7cwCsuodD8LVxAPkVcCBq+Jk5Rb7wNabSnMyM8=
+
+Name: sloop/jre/legal/java.transaction.xa/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/error_prone_annotations-2.18.0.jar
+SHA-256-Digest: nmgUy3GBaYik/RsHqZOo8hu3BY1SLBYrHehJ4ZvqVK4=
+
+Name: sloop/jre/legal/java.desktop/mesa3d.md
+SHA-256-Digest: Y/Tm91yuu8y5XZA/tD5GrHERs2JNCjTxRrJ219nnsVI=
+
+Name: sloop/jre/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: META-INF/maven/org.sonarsource.sonarlint.eclipse/org.sonarlint.ecl
+ ipse.sloop.windows.x64/pom.properties
+SHA-256-Digest: 75puNkVxsg7VlMhmGaptmsR0VojQ07HwvieQfexpv2Q=
+
+Name: sloop/jre/bin/zip.dll
+SHA-256-Digest: wBqpovXMnYb6uKXjmIhme1l8OjvIR3lEQI1QYi2QvTg=
+
+Name: sloop/jre/bin/api-ms-win-crt-time-l1-1-0.dll
+SHA-256-Digest: mrDKxV3OqNVWvWgLEv/JcJ98tFHFmcV8GjHjt5e17Eo=
+
+Name: sloop/lib/logback-core-1.2.13.jar
+SHA-256-Digest: B7FYb68iDAWCHQ8+2OLkF+IUyD9AZB926KkLE0wx/2s=
+
+Name: sloop/jre/legal/java.desktop/freetype.md
+SHA-256-Digest: TU5aIOpEGyN07NslzTVtvymxUG0JcEmS0/bVpN0aUbI=
+
+Name: sloop/jre/legal/java.desktop/lcms.md
+SHA-256-Digest: is8Ate/SXBwFWSciL9PCawyf0C7QLkeMIltk56JNl4I=
+
+Name: sloop/jre/bin/api-ms-win-core-sysinfo-l1-1-0.dll
+SHA-256-Digest: glfIJzV1pleNq1B29Ngb6O9egn5XXTTTUFKXcffAHM0=
+
+Name: sloop/lib/failureaccess-1.0.1.jar
+SHA-256-Digest: oXHuTHNN0tqDfksWvp30Zhr6typBra8x64Tf2vk2yiY=
+
+Name: sloop/jre/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-core-rtlsupport-l1-1-0.dll
+SHA-256-Digest: xhKzaq/n8j2DH042lFA5RTUd8evpYHl/2Ps9mofDhe0=
+
+Name: sloop/lib/jsr305-3.0.2.jar
+SHA-256-Digest: dmrSoHg/JoeWLIrXTO7MOKKLn3Ki0IXuQ4t4E+ko0Mc=
+
+Name: sloop/jre/bin/klist.exe
+SHA-256-Digest: 8gQSiSO9xE9hWzAY1UJhXZ546ixRHqpOO9+kTz8w5Ik=
+
+Name: META-INF/maven/org.sonarsource.sonarlint.eclipse/org.sonarlint.ecl
+ ipse.sloop.windows.x64/pom.xml
+SHA-256-Digest: aSFoQgm//JCnV6Q2y2ZcEeXJkcTN5FLKwVvW4TRuEcg=
+
+Name: sloop/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-gua
+ va.jar
+SHA-256-Digest: s3KgN9QjCqV/vv/e8w/WEj+cDC24XQrO0AyRuXTzP5k=
+
+Name: sloop/lib/javax.annotation-api-1.3.2.jar
+SHA-256-Digest: 4EulGVvNVV3JVlD3zGFNFR5LzVLSmhC4qiGX86uJq5s=
+
+Name: sloop/jre/legal/java.base/c-libutl.md
+SHA-256-Digest: vvQGeZItb9+35N2yI61nIjAPYFS6c3u/YYjWD87FF/k=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler.management/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/sonarlint-rpc-protocol-10.7.2.79501.jar
+SHA-256-Digest: 67MZHBDLOQSknPx3aTH9Uyznib2yUlZ3dhtZN93byV4=
+
+Name: sloop/jre/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+SHA-256-Digest: Nxl0sfyjdEo4ksfuH8xZO4tCgfwhj0yv0vcJ6d9f2B0=
+
+Name: sloop/jre/legal/jdk.nio.mapmode/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-string-l1-1-0.dll
+SHA-256-Digest: SG2UskW1YNTCFr/8pZUgZn9eNDoph2uWzXon88C0nWY=
+
+Name: sloop/jre/legal/java.naming/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/jvm.cfg
+SHA-256-Digest: qp77lpREwUhOKa3sq1WhIkWAkGFudmsvEjDvBbw4Z+A=
+
+Name: sloop/jre/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/kotlin-stdlib-1.6.21.jar
+SHA-256-Digest: c5xSZnK7M3Vzso9jr6gwbrCIsMOgln9W1sifSjASpJI=
+
+Name: sloop/jre/legal/java.base/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: ppvOJ1uno1cK9lecsPVWgs11/t/NSeDo6QIicMRHyRY=
+
+Name: sloop/lib/kotlin-stdlib-common-1.6.21.jar
+SHA-256-Digest: GDvsWc2fOhSVexkOjIec8RlL0fEGsKe24cu4eQ0kI2M=
+
+Name: sloop/jre/legal/jdk.naming.rmi/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/fontconfig.properties.src
+SHA-256-Digest: tEVARzuXNk4PeooAAt0h16BxcCj6FTPxObyY9AyRwPA=
+
+Name: sloop/jre/bin/server/classes_nocoops.jsa
+SHA-256-Digest: tvoxOvvyNUg3Ekb9hZidXdV9F8+eCGl7iB0xSGjLAuM=
+
+Name: sloop/jre/bin/management_ext.dll
+SHA-256-Digest: 7UU5P8eMk9CgEg3+u82WStH3nwUi8GTHFE2BiW/O5S4=
+
+Name: sloop/jre/legal/java.management.rmi/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.base/icu.md
+SHA-256-Digest: rwBX6FU5Bgg/acL7n+ntSui8I0CgseN2pCRwLwAwCyk=
+
+Name: sloop/jre/bin/api-ms-win-crt-math-l1-1-0.dll
+SHA-256-Digest: zCFIOffssWcFnMsz7NRbGnEBKU+p88DBM2dE+8328wc=
+
+Name: sloop/lib/sonarlint-rule-extractor-10.7.2.79501.jar
+SHA-256-Digest: U22wn0yOSnVbdn28HQncQdOe7o2ENIcqEihypmz7F1Q=
+
+Name: sloop/jre/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.compiler/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.security.jgss/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.management/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/java.dll
+SHA-256-Digest: ljHcNaSMnhyVxoLwoDVFOHvdB9f2WCvXWGmf8zLCnt8=
+
+Name: sloop/jre/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/conf/security/policy/unlimited/default_local.policy
+SHA-256-Digest: jYoxjm2Q39fiZhLStjhapwT2hsphNMVR+JKEGNkrhRo=
+
+Name: sloop/jre/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/lib/jvm.lib
+SHA-256-Digest: Kn7EB/ro+ShfvX3Bf99NQZgXLsRdarglpJ7skIhIA0U=
+
+Name: sloop/lib/sonarlint-rpc-impl-10.7.2.79501.jar
+SHA-256-Digest: zt4ym0aSwBQe0Lb2VS/nzENbB5I4hsSxS3DiPcu1dlE=
+
+Name: sloop/jre/bin/api-ms-win-core-processenvironment-l1-1-0.dll
+SHA-256-Digest: Giu4sKoNaxdmJ+GNT4u8AQFGMr7ndjJBZYgMLOJpq1g=
+
+Name: sloop/jre/legal/java.prefs/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-util-l1-1-0.dll
+SHA-256-Digest: bqONC6AoIHi8UEliIvpUhaylm13gsw1CGN7c/ZtVmbo=
+
+Name: sloop/lib/httpclient5-5.2.1.jar
+SHA-256-Digest: k1Xzh2uvgv7BPO0iwSti1XU2Iwg2QG01lFkSjk9z7VE=
+
+Name: sloop/jre/bin/windowsaccessbridge-64.dll
+SHA-256-Digest: cO2iT1N6/Z1TKDw72qU3U3/wVXvSXIq5LtaPqXhgsIA=
+
+Name: sloop/jre/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/sonarlint-commons-10.7.2.79501.jar
+SHA-256-Digest: +4RgyEJEjAWkRZiMKC5EUIzTmPcEal8erhj0ILHsarc=
+
+Name: sloop/jre/legal/jdk.management.jfr/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.sql.rowset/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.sql/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.instrument/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/conf/security/java.security
+SHA-256-Digest: 04aTcdFaGZ4X4iekW5Xmt4tp/OMp26A8SipCzT7/8gs=
+
+Name: sloop/jre/bin/api-ms-win-core-synch-l1-1-0.dll
+SHA-256-Digest: syQU2CT1K2qU2u9vK8HXp7SA1KRsmcBUbaMsczuFXnE=
+
+Name: sloop/lib/git-files-blame-1.0.3.1673.jar
+SHA-256-Digest: z2/vi7oaexHK7co7NvnHrJaNJ5iePzPvaAMuGmn1DN4=
+
+Name: sloop/jre/legal/jdk.charsets/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/modules
+SHA-256-Digest: 16XKYYUvv6E57GIOQ8lr2M269NlqYA57ybP+gDBnUC4=
+
+Name: sloop/jre/bin/mlib_image.dll
+SHA-256-Digest: v1oPkjFi+4JY1jTC4K/JFZIo2pZjGlxXGcsPUVF8JeM=
+
+Name: sloop/lib/spring-aop-5.3.39.jar
+SHA-256-Digest: qnBuT3SZgsC65fpjdDPETCTw//XRbcQd7qbTDD36fIU=
+
+Name: sloop/jre/legal/java.se/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.naming/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.crypto.mscapi/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.management/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/conf/security/policy/limited/default_US_export.policy
+SHA-256-Digest: dYuTClJvxnCrdTf4wmMhUnBQox9fQhSaLdpiPFagoak=
+
+Name: sloop/jre/legal/jdk.dynalink/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/tzmappings
+SHA-256-Digest: NtxRxL94f2QKS0XLuEq2lU9uWVy9NhfC9aTh5gezi/8=
+
+Name: sloop/jre/bin/splashscreen.dll
+SHA-256-Digest: SuhDGQWjVMOkI9kUjSXl6LB3g5fjnJxNHMDKJS2YYDY=
+
+Name: sloop/jre/legal/jdk.unsupported/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/j2gss.dll
+SHA-256-Digest: /d+2+ldrmXLtQNIYCpfzw361Nm+yMkYfFn+ylzS8gcs=
+
+Name: sloop/lib/annotations-13.0.jar
+SHA-256-Digest: rOKhDcji1f00kl7KwD5JiLLA+FFlDJS4zvSbob0RFHg=
+
+Name: sloop/jre/legal/java.logging/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/sonarlint-telemetry-10.7.2.79501.jar
+SHA-256-Digest: n0dQ2ytj7hOjGI/zjKNAkKFb/YmrIds9jCiK1S7uLjk=
+
+Name: sloop/jre/lib/tzdb.dat
+SHA-256-Digest: t9uiWr3+4xfaoELImwHlcR9XgdAg3XM7pBF2C3Kt25M=
+
+Name: sloop/jre/bin/api-ms-win-core-console-l1-2-0.dll
+SHA-256-Digest: +7m3ZNvm8oQp+cTcoXQUwYjMr7rzqIOWEnIdv7UgbJE=
+
+Name: sloop/jre/bin/api-ms-win-core-timezone-l1-1-0.dll
+SHA-256-Digest: VoocyFGxptezpHzRtlAIQ0cAWjtUVHgVqSfosawWm8Y=
+
+Name: sloop/jre/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.rmi/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-crt-private-l1-1-0.dll
+SHA-256-Digest: F6FCc3ttcwx41Xzytk873acWxrrEe9kfpP5nBXOrzJ0=
+
+Name: sloop/jre/legal/jdk.incubator.foreign/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/security/public_suffix_list.dat
+SHA-256-Digest: Uy3aIZ9ETZBiGfmK485O9sDY7eOm/VvPA36KOA9EEAs=
+
+Name: sloop/jre/legal/jdk.management.agent/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/xodus-openAPI-2.0.1.jar
+SHA-256-Digest: oci6SM/fN3yYKXEGcaAWa7pcNjbwhSJfBYWbIlU5jIw=
+
+Name: sloop/jre/legal/jdk.xml.dom/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-crt-runtime-l1-1-0.dll
+SHA-256-Digest: oZd75GkdE6D4Fl5PpFduIHsvbClNU00mi1hXDX5gccE=
+
+Name: sloop/jre/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/WinFallbackLookup.dll
+SHA-256-Digest: /lXt4CrINGu4oZTeHFXUZwoJ4ChVC6AnB2SnPzjpbqc=
+
+Name: sloop/jre/legal/jdk.crypto.cryptoki/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/ktab.exe
+SHA-256-Digest: reFetOmOdhJ6M0wSMpnYEG57GVpcNe/tRN456fG3+FU=
+
+Name: sloop/jre/bin/api-ms-win-crt-utility-l1-1-0.dll
+SHA-256-Digest: K+C7H21EeveLnBRN4000wz+IuohUzUEG8dW0FfnR+WA=
+
+Name: sloop/jre/legal/java.sql/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/lib/psfontj2d.properties
+SHA-256-Digest: eAxWXVrz7m9ouIe3XAQc30agWS9nAS8S7raRKD6SYwo=
+
+Name: sloop/jre/bin/javaaccessbridge.dll
+SHA-256-Digest: Lj8qZsPDbkkJwX4TaySDlmOY9k2zzuDgyer4agZ103Q=
+
+Name: sloop/jre/bin/w2k_lsa_auth.dll
+SHA-256-Digest: Ov0HBj1cPAvxv/titvwIHa7QTgmQfvn2lqqIuq55FyE=
+
+Name: sloop/jre/bin/jabswitch.exe
+SHA-256-Digest: kJh8+gOPhQh63K3EXrLftLBMu/ytAGefnHgobgvt64U=
+
+Name: sloop/jre/conf/security/policy/unlimited/default_US_export.policy
+SHA-256-Digest: dYuTClJvxnCrdTf4wmMhUnBQox9fQhSaLdpiPFagoak=
+
+Name: sloop/jre/bin/jfr.exe
+SHA-256-Digest: jm0ra9hSvLynsilUcRy01VeRXFJlUR6QYrM9s1H4Hcc=
+
+Name: sloop/jre/lib/jfr/profile.jfc
+SHA-256-Digest: UJ0UA9a714r+pK+NGJCu9fORIS0uzGwtDRUxH7ZxdlY=
+
+Name: sloop/jre/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/msvcp140.dll
+SHA-256-Digest: urK5yEPDuvpcR5LvUUVyPmaiCqeVe1w6a+4FHzTOFGM=
+
+Name: sloop/lib/picocli-4.7.3.jar
+SHA-256-Digest: ZEJ0UDGln90NmEGj8jMqA/eqN3NVNtrSBu5PrIgAq5M=
+
+Name: sloop/lib/xodus-utils-2.0.1.jar
+SHA-256-Digest: XAk8x+q1P/NPBQ4wkNjGPwAG15yCom9qQdcIc7DKBWE=
+
+Name: sloop/jre/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/api-ms-win-core-file-l1-2-0.dll
+SHA-256-Digest: f1JnwZ2uUhd+gaKHPRG89QkgXcye4nez2NhzYU2sayY=
+
+Name: sloop/jre/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-core-processthreads-l1-1-1.dll
+SHA-256-Digest: CEuqN39qIPsFq3ycuDAO0hHatvHdpPFp2ZK9+sVlRbo=
+
+Name: sloop/lib/commons-compress-1.26.1.jar
+SHA-256-Digest: J7tdQPN8O7cgW0oFQCR98FdxXp9su9l9Ymq4tQMYuwQ=
+
+Name: sloop/jre/legal/java.prefs/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/commons-lang3-3.12.0.jar
+SHA-256-Digest: 2RnZBEhsA3+NGTQS2gyS4iqfokIwudZ6V4VcXDHH6U4=
+
+Name: sloop/jre/legal/java.se/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.management/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+SHA-256-Digest: JigC4IF2CzizdIyLGUNT00Djm8k2rCLheru3FY2JWBE=
+
+Name: sloop/lib/xodus-entity-store-2.0.1.jar
+SHA-256-Digest: K12S2sOyukPicvnovXBH8RLH+yweBhWZfBPxetWDTmI=
+
+Name: sloop/jre/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.security.sasl/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.jsobject/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEP
+ TION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.httpserver/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-file-l1-1-0.dll
+SHA-256-Digest: 4NAVw/I8FAtGneGg3f/L0c8iyN072buyJZX20d8AH5A=
+
+Name: sloop/jre/bin/keytool.exe
+SHA-256-Digest: cKv2u9twRl/Qsmi6p3VieXNEgwNpMJxtDqi4MkD7Y34=
+
+Name: sloop/jre/conf/security/policy/limited/exempt_local.policy
+SHA-256-Digest: jD12SKvNlaJyzhLbhwCCk39Nf2h41zDYPLf7sx64ssk=
+
+Name: sloop/jre/legal/java.desktop/harfbuzz.md
+SHA-256-Digest: pzzIfBZWfEEYDSBF1+AHbUHgf/XcJ6qV+8NyGvW8c7g=
+
+Name: sloop/jre/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/lib/security/default.policy
+SHA-256-Digest: oG25woJUcVDoXnpnWQcm8RK72pMFNxkHxwgiFbfRO1w=
+
+Name: sloop/jre/bin/jrunscript.exe
+SHA-256-Digest: rfYDRoHbUGufaLs3iNQ70K14B+HmtE5OnNakPjCdJ7A=
+
+Name: sloop/jre/legal/jdk.dynalink/dynalink.md
+SHA-256-Digest: FzElkcq+4+9sNO2Il9kuTjYbqc6kHsANzWGjIqj8LNs=
+
+Name: sloop/jre/conf/security/java.policy
+SHA-256-Digest: 8qAKHew7egl/CBXzOKhHF7oQF9XXqulthC0hiNZ8MlA=
+
+Name: sloop/jre/lib/fontconfig.bfc
+SHA-256-Digest: lorJm7qvikmkdMk05zrVj4jGx/KjY8tEdx4DeERONro=
+
+Name: sloop/jre/legal/java.xml.crypto/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.xml/xalan.md
+SHA-256-Digest: 6mcia+XP4Zx+eXJcLCShZnYyMmTWn5dHxSjeC0RUGwM=
+
+Name: sloop/jre/legal/java.base/cldr.md
+SHA-256-Digest: 8r0z3tVQoF1Z6PZZQW7zgkkFBFSNhG5jiLHf/Sc6oHc=
+
+Name: sloop/jre/bin/api-ms-win-crt-heap-l1-1-0.dll
+SHA-256-Digest: p8O0oAhtbthVWVr7Z7ujdCyNzEVU8oFzjqwg0St099s=
+
+Name: sloop/jre/legal/java.datatransfer/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/xodus-environment-2.0.1.jar
+SHA-256-Digest: K3Yyh/ZQu4uV4xkCZDQ+wkce5hTzIOoVok11JcUeeBs=
+
+Name: sloop/lib/sonar-classloader-1.0.jar
+SHA-256-Digest: H4YMDmmLd4FjzUj6Cbw6rJ+Hif/8Qdd+pY/1UWGTEdw=
+
+Name: sloop/jre/legal/jdk.crypto.mscapi/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.zipfs/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.internal.vm.compiler/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/xodus-compress-2.0.1.jar
+SHA-256-Digest: c4utCKXlntIyRrM2y8SKDd9cttEanPJ9cVL9m7z2+XA=
+
+Name: sloop/jre/legal/jdk.jdwp.agent/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.incubator.vector/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.desktop/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: OSGI-INF/bundle.properties
+SHA-256-Digest: K8IaQ7U4Kci+iBc8Ui6POYnODepfMbfLtGO8F8SA4XY=
+
+Name: sloop/lib/logback-classic-1.2.13.jar
+SHA-256-Digest: k3r7IguR2KOU14vv2/WHxxru0onVguKpHnKn2SFyNx0=
+
+Name: sloop/jre/legal/jdk.net/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/vcruntime140_1.dll
+SHA-256-Digest: 4bV5MveHZ+99x2XeDl/Mhwe3PDN9/4lURauaeL5z7c4=
+
+Name: sloop/jre/legal/java.instrument/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-core-heap-l1-1-0.dll
+SHA-256-Digest: fcVY+bRd+lUwh/tb8xxBTVtL6PR0TfALHyG7mWixw68=
+
+Name: sloop/jre/legal/java.base/aes.md
+SHA-256-Digest: RcbU2kgyXt+/89z3HHBOUEwFeQRDXtI8bVcEbVUetp0=
+
+Name: sloop/jre/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/api-ms-win-core-errorhandling-l1-1-0.dll
+SHA-256-Digest: a3ZqZM2IEpVqQ31Rv8EcORw0lTLwHPlcbzafs0CzN4Q=
+
+Name: sloop/jre/bin/api-ms-win-crt-environment-l1-1-0.dll
+SHA-256-Digest: 94YgPOhnUV71mQD/t9d6JBbbWSFql+//HzuYimmZh7U=
+
+Name: sloop/jre/bin/jimage.dll
+SHA-256-Digest: cao1O+TkcuDF3aES9/vEpYBu+9hWJqnLIuNK09X7fxI=
+
+Name: sloop/jre/bin/fontmanager.dll
+SHA-256-Digest: vNFVJqYFfnNWaphMmdr2M/ZRfhhbq9DXOLbX1fuE5ms=
+
+Name: sloop/lib/sonarlint-core-10.7.2.79501.jar
+SHA-256-Digest: DDD9PaGkdHw7Prir6ucAv0LNRyDJfHO3e+vxI3Lvkgk=
+
+Name: sloop/jre/bin/ucrtbase.dll
+SHA-256-Digest: xaiSNch77iL92hUj5ZV85NcQ0c9RNt1rl+27ekMNhVE=
+
+Name: sloop/lib/spring-jcl-5.3.39.jar
+SHA-256-Digest: rb5lb8Yi4kV/76CVKdS3wRJqPE/xyTBpB3ZPzJPxtyU=
+
+Name: sloop/jre/bin/javaw.exe
+SHA-256-Digest: qE6Ig/23B+ZkUBA2c1eyLCn304c+tVHv6ndbmS095BU=
+
+Name: sloop/jre/bin/api-ms-win-core-interlocked-l1-1-0.dll
+SHA-256-Digest: cOr/Z9D3Vt4gq/NpQkFuH5+7Tq8M66wb6bkS/o8Mnas=
+
+Name: sloop/jre/bin/api-ms-win-core-file-l2-1-0.dll
+SHA-256-Digest: KqVXonabn9XAlX9rlg4An5aPIw5OvkGaDDggXIoBvEM=
+
+Name: sloop/lib/sonarlint-analysis-engine-10.7.2.79501.jar
+SHA-256-Digest: tKSYOvNo3MK8zd9yZ7eQ0a5L9Bz9NCsWMvLfVXD9ipE=
+
+Name: sloop/jre/bin/api-ms-win-core-profile-l1-1-0.dll
+SHA-256-Digest: fQXkf3KLcE4yfd+1TC/DbJTPZa1wRJ79pBj1nH2COE4=
+
+Name: sloop/jre/bin/sunmscapi.dll
+SHA-256-Digest: iaFG/Vwkrvz9bHjYh6J9+X+T4NRiP1N3z7EC32fyCz4=
+
+Name: sloop/lib/slf4j-api-1.7.36.jar
+SHA-256-Digest: 0+9XXj5JeWeNwBvx3M5RAhSTtNEft/G+itmCh3wWocA=
+
+Name: sloop/jre/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/bin/dt_socket.dll
+SHA-256-Digest: 0yLlESMurlROrlvtLDcvT/NcSi3c64ZKaPz5gmIPjEA=
+
+Name: sloop/lib/commons-csv-1.10.0.jar
+SHA-256-Digest: LQbmoHpja693etjmWSVvIRkQnd4jVRybgMVCLUJLgIw=
+
+Name: sloop/jre/legal/jdk.security.auth/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/lib/classlist
+SHA-256-Digest: JhdRfi24hJB1RlJD1i9u2zZYJIzx6feomK9Q3d6r33Y=
+
+Name: sloop/jre/bin/api-ms-win-crt-convert-l1-1-0.dll
+SHA-256-Digest: +QDpUmRg+eowkxW0xjx7C0H9agzdRGXTMEy8pJO8m5c=
+
+Name: sloop/jre/bin/verify.dll
+SHA-256-Digest: D4PbvNu9ULhQtGHFkvVjsSLG+rE5CoUZzln3mWriD8U=
+
+Name: sloop/jre/legal/java.base/wepoll.md
+SHA-256-Digest: OsKZJ3AIBFO5jEKvqAe6SywXOO91a5KlXGRfVeffSPA=
+
+Name: sloop/lib/spring-core-5.3.39.jar
+SHA-256-Digest: Oh3c8FQgqRgb2crLYGKj7cST4U1VWWGtUOGmNg6x518=
+
+Name: sloop/jre/lib/jawt.lib
+SHA-256-Digest: JsyFl3k5j46afu5sAmReVGRdVe175SpvGotud3/IyBU=
+
+Name: sloop/jre/bin/jaccessinspector.exe
+SHA-256-Digest: ZdAnXAirb54Ye2JUNM9juwrhbZO7YaAApchIo6dpiek=
+
+Name: sloop/jre/legal/jdk.accessibility/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/lib/org.eclipse.jgit-6.9.0.202403050737-r.jar
+SHA-256-Digest: YgmsZpG+KgYyDwIADYm+1z7fBfRdZe+aFVFHURq3fzw=
+
+Name: sloop/lib/javax.inject-1.jar
+SHA-256-Digest: kcdwRKUMSBY2wy2Rb9ickRinIZU5BFLIEGUID5V95/8=
+
+Name: sloop/jre/lib/jrt-fs.jar
+SHA-256-Digest: iVAVWYZT7MdHmdbjQV2DFEd2Zo9U+dqLGZnv7OxGpBo=
+
+Name: sloop/jre/legal/jdk.naming.dns/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.xml/jcup.md
+SHA-256-Digest: jV3P31BFWjw0x1OpjyHpUySK8gBBWpCE4/ECy2xDuL8=
+
+Name: sloop/jre/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.rmi/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/httpcore5-5.2.jar
+SHA-256-Digest: KTMhy/WU156ooMsCFPdfFG0X8Ii+F61c4Rwv6GTfEkw=
+
+Name: sloop/lib/sonar-channel-4.2.jar
+SHA-256-Digest: LVjU5nsaA2j0P/PQRFbNbYEO4tuZ5x2ASRkQv2IkBnA=
+
+Name: sloop/jre/bin/lcms.dll
+SHA-256-Digest: SZ41g0APsWGxpFAFTyjAPff9suvnLYTAFVJKcWfR8xg=
+
+Name: sloop/jre/bin/instrument.dll
+SHA-256-Digest: BktlR+6+YoGVVI9BzoGy0JE9S8qxUgyLp5nAyx9p4TE=
+
+Name: sloop/jre/bin/vcruntime140.dll
+SHA-256-Digest: MV2H9Lq/rPeNgEGfuJV5Qw87VN8pnN1khKCYKFJp9lc=
+
+Name: sloop/jre/legal/java.base/LICENSE
+SHA-256-Digest: S5q+vEM4BIp8LcGE6fgA3rNJNmvfKOsjwmd6d7TIdyY=
+
+Name: sloop/jre/legal/java.logging/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.jfr/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/bin/api-ms-win-core-libraryloader-l1-1-0.dll
+SHA-256-Digest: tD4XqphcdXDb+NZHtdd5sUQl/8ctlQ3icpD6mzDiuEY=
+
+Name: sloop/jre/legal/jdk.crypto.mscapi/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.base/ASSEMBLY_EXCEPTION
+SHA-256-Digest: pE63tcr1U0xu9TayHttAtNa6v5G/l9nUVZaGhhiyxvs=
+
+Name: sloop/jre/bin/api-ms-win-core-fibers-l1-1-0.dll
+SHA-256-Digest: RjvpCdCYbD813D0pBj1n9Z1TmpgRZmWoX1jpndhs86A=
+
+Name: sloop/jre/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-core-processthreads-l1-1-0.dll
+SHA-256-Digest: HIwn6HJB/sCLPUx9X0bBZHTetcPesjPHuReLYjpbMKA=
+
+Name: sloop/jre/legal/java.se/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/protobuf-java-4.28.2.jar
+SHA-256-Digest: cHvM9Ab0/GG4QdRwDaqNPoTbirSZ7zSBoGD6ag8G5ic=
+
+Name: sloop/jre/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/management.dll
+SHA-256-Digest: UCzoIFektKKLyWl++2HcSzXBurkbQwyv6WdpReLJIgw=
+
+Name: sloop/jre/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/org.eclipse.lsp4j.jsonrpc-0.22.0.jar
+SHA-256-Digest: mIkPcX4JHtGySUqhTwQuUPdMggVlmO6yfFRAqErdxLk=
+
+Name: sloop/jre/bin/j2pkcs11.dll
+SHA-256-Digest: uMwdiuVPbGdWOEpGbaSKP7/RMmwp2DSqpSjfclRsoYE=
+
+Name: sloop/jre/bin/kinit.exe
+SHA-256-Digest: XpoDuTfDIshSoXrGlGcq/sqY230NQDpTNsIKa74OoPo=
+
+Name: sloop/jre/conf/management/jmxremote.access
+SHA-256-Digest: DCXSbuISyh6MM/Z8PEYNQ/6EnDodI9vjQRSFF2ArKAw=
+
+Name: sloop/jre/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/sonarlint-server-connection-10.7.2.79501.jar
+SHA-256-Digest: Y3dfUhYjs5Un8kk51N/A/Q2vWVtUrXh2/JkzEMLYXDo=
+
+Name: sloop/jre/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/api-ms-win-crt-filesystem-l1-1-0.dll
+SHA-256-Digest: Dwr2Co6HNW7/0gLVnL0xxUD4faRe048wQ7r06YvSX9E=
+
+Name: sloop/jre/bin/awt.dll
+SHA-256-Digest: +mazdJtjyOT992RRnp5wZeN98O2ofTbXMiEQPQZtM+Q=
+
+Name: sloop/jre/bin/prefs.dll
+SHA-256-Digest: 8MvTJ0g64wJEhBeGSVjF6JYg+lrvtXRqf6qOoXc2PFc=
+
+Name: sloop/jre/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/lib/sonar-plugin-api-10.11.0.2468.jar
+SHA-256-Digest: /8bwKcOAJIPqyn/R5nBmVkcyQFIjeQny8TbttLdIshM=
+
+Name: sloop/jre/conf/management/jmxremote.password.template
+SHA-256-Digest: AnO2prniDmzlTFrucBZAKOA5UGOyt9OQYKQLZJVUPb8=
+
+Name: sloop/jre/conf/security/policy/limited/default_local.policy
+SHA-256-Digest: KyYnVI5hMWFQ1H/8PmytRlygWzzM1Hhet9Iap7qg9EE=
+
+Name: sloop/jre/NOTICE
+SHA-256-Digest: wCdWvNn6gZG/D9pEUbwBhBTdRO41vwmSLCQ3ekdeS1o=
+
+Name: sloop/jre/legal/java.desktop/jpeg.md
+SHA-256-Digest: WAvlliFu4R4lVLJM6USXOsrt4uv1/7o0pr2MxEHAUEM=
+
+Name: sloop/jre/bin/rmi.dll
+SHA-256-Digest: +CGq51bHikQPLy5g4l+mgRVpiz6EHdmZiQOci2jxY9A=
+
+Name: sloop/jre/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.internal.vm.ci/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/lib/gson-2.10.jar
+SHA-256-Digest: DN0WPONZiiD8BO7nGxQLJPbyo7NfCkmdu92YUug/v68=
+
+Name: sloop/jre/lib/security/blocked.certs
+SHA-256-Digest: WDUAt2ll61SwNJM3KYmrTTQm+FRi0dsjLFrmcGpNbFg=
+
+Name: sloop/jre/legal/java.desktop/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: sloop/jre/legal/java.xml/bcel.md
+SHA-256-Digest: hToefOOXuxDeDis73ghEvMZR8X2YPezQfS0APAMEwxE=
+
+Name: sloop/jre/legal/java.base/asm.md
+SHA-256-Digest: H/kSdA6E4CRxHe9fpIL/u0bv9kVZdgxGc1Lfp8OaMwc=
+
+Name: sloop/jre/legal/jdk.localedata/cldr.md
+SHA-256-Digest: CZckSXMaHRoIY68DhK63g5+EysdJg8loVubDBeMe2LI=
+
+Name: sloop/jre/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/bin/net.dll
+SHA-256-Digest: H6xEQn6j+2zkQwBf09JjE40aSJthsmVvcDi635eDq9Q=
+
+Name: sloop/jre/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.desktop/libpng.md
+SHA-256-Digest: nGnHDh6EQ9NeTqUG4Njc4OZ9SYWFnTWwgHVmyNbnaB4=
+
+Name: sloop/jre/legal/java.scripting/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: sloop/jre/legal/java.net.http/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: sloop/jre/conf/net.properties
+SHA-256-Digest: W8cmZxk24K9P32vtZ9njogqSwwsLojZz0DFLql4/+wg=
+
+Name: sloop/jre/bin/api-ms-win-core-datetime-l1-1-0.dll
+SHA-256-Digest: uINk1aOeYTAjZtdATZZoTJe8r7TnUUkWcIMm9FVv11g=
+
+Name: sloop/jre/bin/jaas.dll
+SHA-256-Digest: oNPhCBKgHzpRZchDSuRQ4GSOHMIqfyZI6Rkw8siydZE=
+
+Name: sloop/jre/legal/jdk.localedata/thaidict.md
+SHA-256-Digest: wyYUSiNRyWCPpwi119PFo9oD6CtmR5sSjp20lpU5gko=
+
+Name: sloop/jre/bin/java.exe
+SHA-256-Digest: FBDdUUAfKZ31U3XfIyeTBuWy0j2zbFIlcVi18mfPozM=
+
+Name: sloop/jre/legal/java.base/zlib.md
+SHA-256-Digest: gVGOvEnSOnx3suCO/0hmTqDH3ZCVegyvIv2WVJhdMoU=
+
+Name: sloop/jre/bin/api-ms-win-core-console-l1-1-0.dll
+SHA-256-Digest: iinv4KoEAMUWgKrDhvVXRuSjO7bmMT3swoooVALhHGE=
+

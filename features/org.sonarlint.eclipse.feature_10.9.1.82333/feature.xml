@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sonarlint.eclipse.feature"
+      label="%feature_name"
+      version="10.9.1.82333"
+      provider-name="%provider_name"
+      plugin="org.sonarlint.eclipse.ui">
+
+   <description url="https://docs.sonarsource.com/sonarlint/eclipse/">
+      %description
+   </description>
+
+   <copyright url="https://docs.sonarsource.com/sonarlint/eclipse/license/">
+      %copyright
+   </copyright>
+
+   <license url="http://www.gnu.org/licenses/lgpl.txt">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.equinox.security"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.core.filebuffers"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.core.net"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.databinding"/>
+      <import plugin="org.eclipse.core.databinding.beans"/>
+      <import plugin="org.eclipse.core.databinding.property"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.jface.databinding"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.forms"/>
+   </requires>
+
+   <plugin
+         id="org.sonarlint.eclipse.core"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.ui"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.cdt"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.jdt"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.m2e"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.buildship"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.macosx.aarch64"
+         os="macosx"
+         arch="aarch64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.macosx.x64"
+         os="macosx"
+         arch="x86_64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.linux.aarch64"
+         os="linux"
+         arch="aarch64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.linux.x64"
+         os="linux"
+         arch="x86_64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.windows.x64"
+         os="win32"
+         arch="x86_64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarlint.eclipse.sloop.no-arch"
+         os="win32"
+         arch="aarch64"
+         version="10.9.1.82333"/>
+
+   <plugin
+         id="org.sonarsource.sonarlint.core.sonarlint-java-client-osgi"
+         version="10.7.2.79501"/>
+</feature>
