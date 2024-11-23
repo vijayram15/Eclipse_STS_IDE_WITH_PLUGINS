@@ -1163,9 +1163,15 @@ repositories/https\:__edge.codetogether.com_downloads_products_devstyle_updates_
 repositories/https\:__edge.codetogether.com_downloads_products_devstyle_updates_ds20240920/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
 repositories/https\:__edge.codetogether.com_downloads_products_devstyle_updates_ds20240920/uri=https\://edge.codetogether.com/downloads/products/devstyle/updates/ds20240920
 repositories/https\:__edge.codetogether.com_downloads_products_devstyle_updates_ds20240920/version=1.0.0
+repositories/https\:__junit-tools.org_updates/description=
 repositories/https\:__junit-tools.org_updates/enabled=true
 repositories/https\:__junit-tools.org_updates/isSystem=false
+repositories/https\:__junit-tools.org_updates/name=JUnit-Tools
+repositories/https\:__junit-tools.org_updates/provider=
+repositories/https\:__junit-tools.org_updates/suffix=artifacts.xml
+repositories/https\:__junit-tools.org_updates/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
 repositories/https\:__junit-tools.org_updates/uri=https\://junit-tools.org/updates
+repositories/https\:__junit-tools.org_updates/version=1.0.0
 repositories/https\:__pmd.github.io_pmd-eclipse-plugin-p2-site/description=
 repositories/https\:__pmd.github.io_pmd-eclipse-plugin-p2-site/enabled=true
 repositories/https\:__pmd.github.io_pmd-eclipse-plugin-p2-site/isSystem=false
